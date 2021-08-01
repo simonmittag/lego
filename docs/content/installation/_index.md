@@ -7,7 +7,7 @@ draft: false
 
 ## Binaries
 
-To get the binary just download the latest release for your OS/Arch from [the release page](https://github.com/go-acme/lego/releases) and put the binary somewhere convenient.
+To get the binary just download the latest release for your OS/Arch from [the release page](https://github.com/simonmittag/lego/releases) and put the binary somewhere convenient.
 lego does not assume anything about the location you run it from.
 
 ## From Docker
@@ -48,7 +48,7 @@ Requirements:
 To install the latest development version from sources, just run:
 
 ```bash
-go get -u github.com/go-acme/lego/v4/cmd/lego
+go get -u github.com/simonmittag/lego/v4/cmd/lego
 ```
 
 or

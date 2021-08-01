@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
-	"github.com/go-acme/lego/v4/providers/dns/clouddns/internal"
+	"github.com/simonmittag/lego/v4/challenge/dns01"
+	"github.com/simonmittag/lego/v4/platform/config/env"
+	"github.com/simonmittag/lego/v4/providers/dns/clouddns/internal"
 )
 
 // Environment variables names.

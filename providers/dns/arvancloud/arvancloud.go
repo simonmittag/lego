@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
-	"github.com/go-acme/lego/v4/providers/dns/arvancloud/internal"
+	"github.com/simonmittag/lego/v4/challenge/dns01"
+	"github.com/simonmittag/lego/v4/platform/config/env"
+	"github.com/simonmittag/lego/v4/providers/dns/arvancloud/internal"
 )
 
 const minTTL = 600

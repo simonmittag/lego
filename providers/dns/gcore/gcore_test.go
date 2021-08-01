@@ -3,7 +3,7 @@ package gcore
 import (
 	"testing"
 
-	"github.com/go-acme/lego/v4/platform/tester"
+	"github.com/simonmittag/lego/v4/platform/tester"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

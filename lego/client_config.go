@@ -10,8 +10,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/go-acme/lego/v4/certcrypto"
-	"github.com/go-acme/lego/v4/registration"
+	"github.com/simonmittag/lego/v4/certcrypto"
+	"github.com/simonmittag/lego/v4/registration"
 )
 
 const (

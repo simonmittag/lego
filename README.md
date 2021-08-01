@@ -1,10 +1,6 @@
 # ![lego](./docs/static/images/logo.png)
 
-Let's Encrypt client and ACME library written in Go.
-
-[![GoDoc](https://godoc.org/github.com/go-acme/lego?status.svg)](https://pkg.go.dev/mod/github.com/go-acme/lego/v4)
-[![Build Status](https://github.com//go-acme/lego/workflows/Main/badge.svg?branch=master)](https://github.com//go-acme/lego/actions)
-[![Docker Pulls](https://img.shields.io/docker/pulls/goacme/lego.svg)](https://hub.docker.com/r/goacme/lego/)
+Fork of Let's Encrypt client and ACME library written in Go. See: https://go-acme.github.io/lego/
 
 ## Features
 
@@ -23,7 +19,7 @@ Let's Encrypt client and ACME library written in Go.
 - Certificate bundling
 - OCSP helper function
 
-lego introduced support for ACME v2 in [v1.0.0](https://github.com/go-acme/lego/releases/tag/v1.0.0). If you still need to utilize ACME v1, you can do so by using the [v0.5.0](https://github.com/go-acme/lego/releases/tag/v0.5.0) version.
+lego introduced support for ACME v2 in [v1.0.0](https://github.com/simonmittag/lego/releases/tag/v1.0.0). If you still need to utilize ACME v1, you can do so by using the [v0.5.0](https://github.com/simonmittag/lego/releases/tag/v0.5.0) version.
 
 ## Installation
 
@@ -73,4 +69,4 @@ Detailed documentation is available [here](https://go-acme.github.io/lego/dns).
 
 <!-- END DNS PROVIDERS LIST -->
 
-If your DNS provider is not supported, please open an [issue](https://github.com/go-acme/lego/issues/new?assignees=&labels=enhancement%2C+new-provider&template=new_dns_provider.md).
+If your DNS provider is not supported, please open an [issue](https://github.com/simonmittag/lego/issues/new?assignees=&labels=enhancement%2C+new-provider&template=new_dns_provider.md).
