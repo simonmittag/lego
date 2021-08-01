@@ -45,6 +45,7 @@ require (
 	github.com/ovh/go-ovh v1.1.0
 	github.com/pquerna/otp v1.3.0
 	github.com/rainycape/memcache v0.0.0-20150622160815-1031fa0ce2f2
+	github.com/rs/zerolog v1.23.0 // indirect
 	github.com/sacloud/libsacloud v1.36.2
 	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.7.0.20210127161313-bd30bebeac4f
 	github.com/stretchr/testify v1.7.0

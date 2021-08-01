@@ -1,12 +1,11 @@
 package log
 
 import (
-	"log"
-	"os"
+	"github.com/rs/zerolog/log"
 )
 
 // Logger is an optional custom logger.
-var Logger StdLogger = log.New(os.Stderr, "", log.LstdFlags)
+
 
 // StdLogger interface for Standard Logger.
 type StdLogger interface {
@@ -21,39 +20,39 @@ type StdLogger interface {
 // Fatal writes a log entry.
 // It uses Logger if not nil, otherwise it uses the default log.Logger.
 func Fatal(args ...interface{}) {
-	Logger.Fatal(args...)
+	log.Debug().Msgf("%v",args...)
 }
 
 // Fatalf writes a log entry.
 // It uses Logger if not nil, otherwise it uses the default log.Logger.
 func Fatalf(format string, args ...interface{}) {
-	Logger.Fatalf(format, args...)
+	log.Debug().Msgf(format,args...)
 }
 
 // Print writes a log entry.
 // It uses Logger if not nil, otherwise it uses the default log.Logger.
 func Print(args ...interface{}) {
-	Logger.Print(args...)
+	//log.Debug().Msgf("%v",args...)
 }
 
 // Println writes a log entry.
 // It uses Logger if not nil, otherwise it uses the default log.Logger.
 func Println(args ...interface{}) {
-	Logger.Println(args...)
+	//log.Debug().Msgf("%v",args...)
 }
 
 // Printf writes a log entry.
 // It uses Logger if not nil, otherwise it uses the default log.Logger.
 func Printf(format string, args ...interface{}) {
-	Logger.Printf(format, args...)
+	//log.Debug().Msgf(format,args...)
 }
 
 // Warnf writes a log entry.
 func Warnf(format string, args ...interface{}) {
-	Printf("[WARN] "+format, args...)
+	log.Debug().Msgf(format,args...)
 }
 
 // Infof writes a log entry.
 func Infof(format string, args ...interface{}) {
-	Printf("[INFO] "+format, args...)
+	//log.Debug().Msgf(format,args...)
 }
